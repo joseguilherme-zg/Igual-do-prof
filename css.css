@@ -1,20 +1,23 @@
 header{
     color: (0, 0, 0);
-    width: 1400px;
-    height: 600px;
+    width: 1000px;
+    height: 125px;
     display: block;
     margin-left: auto;
     margin-right: auto;
     background-color: red;
-    border-radius: 40px;
+    border-radius: 60px;
+    
 }
 
 .personagem_principal{
     display: flex;
+    
 }
 
 .personagem_principal img{
-    width: 200px;
+    width: 250px;
     height: 140px;
     object-fit: cover;
+    
 }
