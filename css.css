@@ -1,3 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitcount+Grid+Single:wght@100..900&display=swap');
+
+body{
+    background-color: black
+}
 header{
     color: (0, 0, 0);
     width: 1000px;
@@ -7,11 +12,23 @@ header{
     margin-right: auto;
     background-color: red;
     border-radius: 60px;
-    
+}
+
+header h1{
+    text-align: center;
+    padding: 35px;
+    font-family: "Bitcount Grid Single", system-ui;
+    font-optical-sizing: auto;
+    font-weight: 900px;
+    font-style: normal;
+    font-size: 60px
 }
 
 .personagem_principal{
     display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    gap:20px;
     
 }
 
@@ -19,5 +36,27 @@ header{
     width: 250px;
     height: 140px;
     object-fit: cover;
+    border-radius: 60px;
+    border: 5px solid red;
+}
+
+.personagem_secundario{
+    display: flex;
+    justify-content: center;
+    margin-top: 90px;
+    margin-bottom: 120px;
+    gap:50px;
     
+}
+
+.personagem_secundario img{
+    width: 280px;
+    height: 280px;
+    object-fit: cover;
+    border-radius: 1px;
+    border: 5px solid red;
+}
+
+.personagem_secundario img:hover{
+    transform: scale(1.5);
 }
